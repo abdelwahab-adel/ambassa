@@ -75,14 +75,11 @@
     medical_tours: "Medical tours",
     medical_sub: "This is based on its dry, sunny climate and unique natural characteristics.",
     medical_text: "Aswan is renowned as a global wellness destination, offering a variety of therapeutic treatments such as hot sand therapy for rheumatism, sulfur baths, mud therapy, and hot stone massages, along with the benefits of ultraviolet sunlight. The city hosts fully equipped health resorts and specialized centers, including the Magdi Yacoub Heart Center, making it ideal for treating bone and respiratory ailments. Medical tourism in Aswan combines traditional and modern therapies. Visitors can experience sand therapy by being buried in hot sand to relieve rheumatism and joint problems, a practice dating back to the Pharaonic era, while taking necessary sun precautions. The region’s dry, sunny climate with low humidity and strong UV rays is particularly beneficial for chest diseases and asthma. These offerings make Aswan a comprehensive destination for both therapeutic care and restorative leisure."
-               
+               ,hero_eyebrow:"Discover · Enjoy · Learn"
     ,
+    introooo:"Unique and diverse tourist attractions",
     
-    header_typewrite: [
-                    "Nature, climate And handicrafts",
-                    "Nubian culture!",
-                    "Geographical location and tourist attractions."
-                ],
+    header_typewrite:"Nubian nature and culture, geographical location and tourist attractions.",
                  footer_title: "Travel with us",
     quick_links: "quick links",
     location: "Location  Aswan, Egypt",
@@ -101,6 +98,8 @@ link_home: '<i class="fas fa-chevron-circle-right"></i> Home',
     descf: "Aswan is famous for its many authentic, popular, and distinctive Nubian and Upper Egyptian dishes, which rely on simplicity and local ingredients."
            
 ,
+geo_locationnn:"?Where is Aswan located",
+intro_heading:"Bride of the South",
 
     history_title: "Uncover the Profound and Rich Nubian Civilization",
     history_desc: "Nubian civilization is one of the world’s oldest, with its origins dating back to at least 5000 BCE. Archaeological finds reveal that early Nubian societies were adept at fishing, herding, and later agriculture. The region became increasingly sophisticated, giving rise to the Kerma culture around 2500 BCE, which is one of the first complex civilizations in Africa. Kerma, the first Nubian capital, was known for its impressive mudbrick architecture, pottery, and advanced craftsmanship, reflecting a society with a complex social hierarchy and governance.The Kingdom of Kush, which emerged around 1070 BCE following the decline of Egypt’s New Kingdom, became a powerful Nubian empire with its capital at Napata, and later Meroë. The Kushites even ruled Egypt during the 25th Dynasty, with a line of Nubian Pharaohs who sought to preserve and restore ancient Egyptian cultural practices.Meroë, Kush’s later capital, is famous for its ironworking industry and pyramids, which differ in style from those in Egypt, reflecting the unique evolution of Nubian architecture and spirituality. The Nubian civilization eventually declined around 350 CE after conflicts with the Kingdom of Aksum, but left an enduring legacy seen in Nubian culture, language, and art",
@@ -220,7 +219,7 @@ link_home: '<i class="fas fa-chevron-circle-right"></i> Home',
                 welcome_paragraph: "تعتبر أسوان واحدة من أبرز المدن السياحية في مصر، وتُعد من أقدم وأجمل المدن. تتميز بتاريخها العريق ومناظرها الطبيعية الخلابة، وتقع على ضفاف نهر النيل، مما يجعلها وجهة مثالية للسياحة والاستجمام.",
                 geo_location_title: "الموقع الجغرافي الفريد، المعالم الفرعونية، والمناظر الطبيعية",
                 geo_location_desc: "تقع محافظة أسوان في أقصى جنوب مصر، وهي صحراء ومحافظة تعتمد على نهر النيل. نهر النيل هو العنصر المحدد للحياة هناك، حيث يتدفق عبر المحافظة من الشمال إلى الجنوب.",
-                
+                intro_heading:"عروس الجنوب",
                 food_title: "الطعام",
                 footer_heading: "سافر معنا",
                 footer_contact: "اتصل بنا",
@@ -236,11 +235,8 @@ link_home: '<i class="fas fa-chevron-circle-right"></i> Home',
                 kitchener_island: "جزيرة النباتات",
                 nile_museum: "متحف النيل",
                 high_dam: "السد العالي", 
-                header_typewrite: [
-                    "الطبيعة، المناخ والحرف اليدوية",
-                    "الثقافة النوبية!",
-                    "الموقع الجغرافي والمعالم السياحية."
-                ],
+                header_typewrite:"الطبيعة  والثقافة النوبية والموقع الجغرافي والمعالم السياحية.",
+                introooo:"معالم سياحية فريدة ومتنوعة",
                   footer_title: "سافر معنا",
     quick_links: "روابط سريعة",
      link_home: '<i class="fas fa-chevron-circle-right"></i> الصفحة الرئيسية',
@@ -254,10 +250,12 @@ link_home: '<i class="fas fa-chevron-circle-right"></i> Home',
     phone: '<i class="fas fa-phone"></i> الهاتف 01100340198',
     email: '<i class="fas fa-envelope"></i> abdelwahabadel777@gmail.com',
     location: '<i class="fas fa-map-marker-alt"></i> الموقع: أسوان، مصر',
-     titlef: "أفضل الأطعمة في أسوان",
+     titlef: "أشهر الأطعمة في أسوان",
     descf: "أسوان مشهورة بالعديد من الأطباق النوبية والصعيدية الأصلية، التي تعتمد على البساطة والمكونات المحلية.",
 
+hero_eyebrow:"اكتشف · استمتع · تعلّم",
 
+geo_locationnn:"أين تقع أسوان؟",
     
     trips:"رحلات أسوان السياحية",
     archaeological_tours: "الرحلات الأثرية",

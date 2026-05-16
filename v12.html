@@ -1,441 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ar" dir="rtl">
 <head>
-<title>Aswan Culture</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
-
-    <!--owl carousel-->
-    <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
-
-   <link rel="icon" type="image/png" href="images/icon.png" />
-   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
-           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
- <style>
-header {
-    
-    background-color:#ff7708;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 20px; /* تقليل padding الجانبي ليكون مناسبًا للشاشات الصغيرة */
-    position: relative;
-    background-blend-mode: overlay;
-    color: #fff;
-}
-
-.main-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px; /* مسافة بين العنصرين */
-    padding: 20px;
-    width: 100%; /* لضمان ملء الحاوية بشكل كامل */
-    max-width: 1200px; /* لمنع التمدد المفرط على الشاشات الكبيرة */
-    
-}
-
-.home_header_info {
-    flex: 1;
-}
-
-.video1 {
-    flex: 1;
-    display: flex;
-    justify-content: center; /* لضبط الفيديو في المنتصف */
-}
-
-#video {
-    max-width: 140%; /* يجعل الفيديو يتكيف مع حجم العنصر الحاوي */
-    height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
-    max-height: 400px; /* يحد من ارتفاع الفيديو */
-    border-radius: 8px; /* تدوير الزوايا */
-}
-#pic{
-    font-size: 220%; 
-}
-
-/* وسائط الإعلام لتصغير الشاشة */
-@media screen and (max-width:768px) {
-    .nav {
-        position: fixed;
-        background-color: #000;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        transition: all 0.5s ease;
-    }
-
-    .nav-active {
-        left: 0;
-    }
-
-    .toggle-btn i.nav-active:before {
-        content: "\f00d";
-    }
-
-    .nav ul li {
-        display: block;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .nav ul {
-        margin-top: 100px;
-    }
-
-    .toggle-btn {
-        display: block;
-        z-index: 1;
-    }
-
-    .home_header_info h1 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .home_header_info p {
-        font-size: 14px;
-        line-height: 30px;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    section#welcome_Sec h2 {
-        font-size: 21px;
-    }
-
-    section#welcome_Sec p {
-        font-size: 14px;
-        color: #777;
-        font-weight: 400;
-        line-height: 26px;
-    }
-#pic{
-     font-size: 120%;
-}
- 
-#loc{
-     font-size:120%;
-}
-#loc1{
-     font-size: 70%;
-}
-  
-#video{
-  width: 120%;
-  height: 60vh;
-}  
-}
-
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="high_dam">أمبيسا | أسوان</title>
+  <meta name="description" content="Ambesa – Aswan Culture" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="page.css" />
 </head>
-
 <body>
 
-    <div id="arrow">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  <!-- Navbar, footer, chatbot injected by shared-components.js -->
+
+  <!-- ── HERO ── -->
+  <header class="page-hero" id="hero">
+    <div class="page-hero__overlay"></div>
+    <video class="page-hero__video" autoplay loop playsinline>
+      <source src="images/video/v12.mp4" type="video/mp4" />
+    </video>
+    <div class="page-hero__content">
+      <span class="breadcrumb"><a href="index.html" data-translate="home">الرئيسية</a> <i class="fa fa-angle-left"></i> <span data-translate="high_dam">المعلم السياحي</span></span>
+      <h1 data-translate="high_dam">المعلم السياحي</h1>
+      <p data-translate="p12">وصف مختصر عن المعلم.</p>
+      <a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D8%AF_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A" class="btn btn--primary" data-translate="read_more" target="_blank" rel="noopener">
+        اقرأ المزيد <i class="fa fa-arrow-left"></i>
+      </a>
     </div>
-    <nav>
-        <div class="container">
-            <div class="menu-par">
-                <div class="logo-par">
-                    <a href="index.html">
-                        <h2 data-translate="logo">!Ambesa</h2>
-                    </a>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a class="menu_hover" href="index.html" data-translate="home">Home</a></li>
-                        <li><a class="menu_hover" href="index.html#slides_parent" data-translate="heritage_sites">Heritage Sites</a></li>
-                        <li><a class="menu_hover" href="#explore-fiji" data-translate="travel_with_us">Travel With us</a></li>
-                        <li><a class="menu_hover" href="#gallery" data-translate="gallery">Gallery</a></li>
-                        <li><a class="menu_hover" href="noba.html" data-translate="our_pride">Nubian </a></li>
-                        <li><a class="menu_hover"  href="food.html" data-translate="food">food</a></li>
-                    </ul>
-                </div>
-                <div class="toggle-btn">
-                    <i class="fa fa-bars"></i>
-                </div> 
-            </div>
-        </div>   
-<div style="margin: 20px; text-align: center; display:block; position: fixed; top: 10px; right: 10px; z-index: 999;">
-    <button id="langFlag" style="border:none; background:none; cursor:pointer; display: flex; align-items: center; justify-content: center; "onclick=toggleLanguage()>
-        <img id="flagImage" src="en.png" alt="English" style="width:24px; height:24px;">
-        <span id="langText" style="margin-left: 8px;">English</span>
-    </button>
-</div>
-    </nav>
+  </header>
 
-    <header>
-    
+  <!-- ── INFO ── -->
+  <section class="info-sec" id="info">
+    <div class="container">
+      <span class="section-tag" data-translate="high_dam">المعلم</span>
+      <h2 class="section-title" data-translate="inf12">معلومات عن المعلم</h2>
+      <div class="info-body fade-in">
+        <p data-translate="dec12">تفاصيل المعلم السياحي.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="main-container">
-  <div class="home_header_info" >
-      <h1 class="typewrite" data-translate="high_dam">High Dam</h1>
-      <p data-translate="p12">
-It is considered one of the most important engineering projects in Egypt, as it regulates the Nile flood, provides hydroelectric power, contributes to
- the reclamation of agricultural lands, and helps in the development of economic growth.
-      </p>
-      <a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D8%AF_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A"  data-translate="read_more" target="_blank" rel="noopener noreferrer">Read More</a>
-  </div>
-  <div class="video1">
-      <video id="video" autoplay loop muted controls>
-          <source type="video/mp4" src="images/video/v12.mp4" />
-          Your browser does not support the video tag.
-      </video>
-  </div>
-</div>
-    </header>
-
-    <Section id="welcome_Sec"  >
-        <div class="container">
-            <h2 data-translate="inf12"><span>information about High Dam
-            </span></h2>
-            <p data-translate="dec12">The Aswan High Dam is considered one of the greatest engineering projects of the twentieth century and a symbol of Egypt’s modern renaissance. This massive dam was built on the Nile River south of Aswan to protect Egypt from the destructive annual floods and, at the same time, to store water, generate electricity, and support agricultural and industrial development.
-<br>
-The idea of constructing the High Dam emerged in the mid-1900s, and when President Gamal Abdel Nasser came to power, it evolved into a monumental national project. Construction began in 1960, and the dam was officially inaugurated in January 1971, marking the beginning of a new era in which Egypt could manage the Nile’s waters more efficiently.
-<br>
-The dam stretches approximately 3.6 kilometers in length and stands over 111 meters high. It can store billions of cubic meters of water in Lake Nasser—the largest artificial lake in the world. This enormous capacity has protected Egypt from flooding during years of high Nile levels and prevented drought during years of low rainfall.
-<br>
-Beyond regulating the river, the dam became a major source of hydroelectric power. Its massive turbines supply electricity to homes and factories, playing a vital role in fueling national development.
-<br>
-The project also enabled the reclamation of large areas of new agricultural land, increased food production, enhanced navigation along the Nile, and improved irrigation systems.
-<br>
-Despite the many challenges faced during its construction, the Aswan High Dam remains one of the most significant achievements in modern Egyptian history. Today, it stands as a testament to the capability of the Egyptian people to accomplish monumental projects and as a landmark visited by thousands of tourists who come to witness the greatness of engineering and human determination.</p>
+  <!-- ── GALLERY ── -->
+  <section class="gallery-sec" id="gallery">
+    <div class="container">
+      <span class="section-tag" data-translate="pic12">الصور</span>
+      <h2 class="section-title" data-translate="pic12">معرض الصور</h2>
+      <div class="gallery__grid">
+          <div class="gallery__item fade-in"><img src="images/pic12/Aswan-High-Dam-Egypt.webp" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic12/Aswan-High-Dam-Nile-River-Egypt.webp" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic12/BarragemAssuão.jpg" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic12/السد العالي 1.png" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic12/السد العالي 2.jpg" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic12/السد العالي 3.jpg" alt="" loading="lazy" /></div>
         </div>
-    </Section>
+    </div>
+  </section>
 
-
-    <section id="gallery">
-        <div class="container">
-            <div class="row">
-            <div align="center">
-                    <h2 id="pic" data-translate="pic12" style="margin-bottom:7%; "><span>picture about High Dam
-            </span></h2>
-                </div>
-
-                <div class="filter-gal-par">
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                        <img src="images/pic12/Aswan-High-Dam-Egypt.webp" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="images/pic12/Aswan-High-Dam-Nile-River-Egypt.webp" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                        <img src="images/pic12/السد العالي 1.png" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                        <img src="images/pic12/السد العالي 2.jpg" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                        <img src="images/pic12/السد العالي 3.jpg" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                        <img src="images/pic12/BarragemAssuão.jpg" class="img-responsive">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <section id="explore-fiji">
-       <center><h2  data-translate="geo_location_title" id="loc" > The unique geographical location, Pharaonic landmarks, and natural scenery</h2></center> 
-       <br><br>
-       <center ><p><h4 id="loc1" data-translate="loc12" style="font-size: 90%;" >
-On the Nile River directly south of Aswan, about 200 kilometers before the Egyptian-Sudanese border.
-</h4></p></center>
-     <br><br><center> <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105526.93181411992!2d32.96514892959302!3d24.02769770900819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1436886a6b928b8b%3A0x1f30b4b0578be44c!2z2KfZhNiz2K8g2KfZhNi52KfZhNmKINio2KPYs9mI2KfZhg!5e1!3m2!1sar!2seg!4v1765567719209!5m2!1sar!2seg"
-        width="60%"
-        height="480"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe></center>
-    </section>
-
-
-    <section class="footer" style="text-align: left;">
-
-   <div class="box-container">
-
-      <div class="box">
-          <h3 data-translate="footer_title" style="font-size: 190%;" >Travel with us</h3>
-          <p  data-translate="welcome_paragraph">Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+  <!-- ── LOCATION ── -->
+  <section class="location-sec" id="location">
+    <div class="container">
+      <span class="section-tag" data-translate="geo_location_title">الموقع الجغرافي</span>
+      <h2 class="section-title" data-translate="geo_location_title">الموقع</h2>
+      <p class="section-body fade-in" data-translate="loc12">الموقع الجغرافي للمعلم.</p>
+      <div class="map-wrap fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105526.93181411992!2d32.96514892959302!3d24.02769770900819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1436886a6b928b8b%3A0x1f30b4b0578be44c!2z2KfZhNiz2K8g2KfZhNi52KfZhNmKINio2KPYs9mI2KfZhg!5e1!3m2!1sar!2seg!4v1765567719209!5m2!1sar!2seg"
+          title="خريطة"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
+    </div>
+  </section>
 
-      <div class="box">
-          <h3 data-translate="quick_links">quick links</h3>
-          <a href="index.html" data-translate="link_home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="https://aswan.gov.eg/" data-translate="link_aswan"><i class="fas fa-chevron-circle-right"></i> Electronic Portal Aswan Governorate</a>
-          <a href="https://mota.gov.eg/ar" data-translate="link_tourism"><i class="fas fa-chevron-circle-right"></i> Ministry of Tourism and Antiquities</a>
-          <a href="noba.html" data-translate="link_Nubian""><i class="fas fa-chevron-circle-right"></i> education</a>
-           
-      </div>
-
-
-      <div class="box">
-          <h3 data-translate="contact_info">contact info</h3>
-          <p data-translate="phone"> <i class="fas fa-phone"></i>01100340198</p>
-          <p data-translate="email"> <i class="fas fa-envelope"></i>abdelwahabadel777@gmail.com</p>
-          <p data-translate="location"> <i class="fas fa-map-marked-alt"></i> Aswan, Egypt</p>
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/abdelwahab-adel-57265926b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bp0FJitl2Sk2cG12k2iX76g%3D%3D" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="#" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:abdelwahabadel777@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <a href="https://www.facebook.com/profile.php?id=100008450681129&mibextid=ZbWKwL" class="fab fa-facebook" aria-label="FaceBook" target="_blank"></a>
-              <a href="http://t.me/Abdelwahab77" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
-              <a href="https://wa.me/+0201100340198" class="fab fa-whatsapp" aria-label="Whatsapp" target="_blank"></a>
-          </div>
-      </div>
-  </div>
-
- 
-</section>
-
- 
- 
-
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/extrenaljq.js"></script>
-  
-    <script src="js/script.js"></script>
- 
-  <!-- Chatbot container -->
-<!-- أيقونة AI على شكل دائرة -->
-<div id="ai-icon" class="chatbot-ui">
-  <!-- تأكد من صحة مسار الصورة -->
-  <img src="images/pngtree-pharaoh-head-of-egypt-icon-vector-png-image_7225421.png" style="border-radius: 50%; object-fit: cover;" width="50" height="50" alt="AI Icon">
-</div>
-
-<!-- نافذة الدردشة -->
-<div id="chat-box" class="chatbot-ui">
-  
-  <!-- رأس النافذة -->
-  <div class="chat-header">
-    <span data-translate="chat">
-      مرحباً أنا <strong>امبيسا</strong> مساعدك الرقمي، والمصمم للإجابة على أسئلتك حول معلومات وخدمات مدينة أسوان.
-    </span>
-    <button id="close-chat">&times;</button>
-  </div>
-
-  <!-- منطقة عرض الرسائل -->
-  <div id="messages">
-    <!-- الرسائل ستظهر هنا -->
-  </div>
-
-  <!-- صندوق الإدخال -->
-  <div class="input-area">
-    <input type="text" data-translate="Write_chat" style="color: white;" id="chat-input" placeholder="اكتب استفسارك هنا...">
-    <button data-translate="send" id="send">إرسال</button>
-  </div>
-
-</div>
-<!-- JavaScript -->
-<script>
-  
-  // فتح وإغلاق النافذة عند الضغط على الأيقونة
-  const icon = document.getElementById('ai-icon');
-  const chatBox = document.getElementById('chat-box');
-  const closeBtn = document.getElementById('close-chat');
-  const sendBtn = document.getElementById('send');
-  const chatInput = document.getElementById('chat-input');
-  const messagesDiv = document.getElementById('messages');
-
-  icon.onclick = () => {
-    chatBox.style.display = 'flex';
-  };
-
-  closeBtn.onclick = () => {
-    chatBox.style.display = 'none';
-  };
-
-  // وظيفة لإضافة رسالة
-  function addMessage(text, sender='user') {
-    const msg = document.createElement('div');
-    msg.style.marginBottom = '10px';
-    msg.style.padding = '8px';
-    msg.style.borderRadius = '8px';
-    msg.style.maxWidth = '80%';
-    msg.style.backgroundColor = sender === 'user' ? '#DCF8C6' : '#fff';
-    msg.style.alignSelf = sender === 'user' ? 'flex-end' : 'flex-start';
-    msg.innerText = text;
-    messagesDiv.appendChild(msg);
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  }
-
-  // وظيفة لإرسال الرسالة إلى API واستقبال الرد
-  async function sendMessage() {
-    const message = chatInput.value.trim();
-    if (!message) return;
-
-    addMessage(message, 'user');
-    chatInput.value = '';
-
-    // استدعاء API الخاص بـ OpenRouter
-    try {
-      const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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', // استبدلها بالمفتاح الخاص بك
-        },
-        body: JSON.stringify({
-          model: 'tngtech/deepseek-r1t2-chimera:free', // استبدلها باسم النموذج، مثلاً: 'gpt-3.5-turbo'
-          messages: [{ role: 'user', content: message }],
-        max_tokens: 1200,
-          temperature: 1.2,
-        }),
-      });
-
-      const data = await response.json();
-      if (data.choices && data.choices.length > 0) {
-        const reply = data.choices[0].message.content;
-        addMessage(reply, 'bot');
-      } else {
-        addMessage('عذراً، لم أتمكن من الحصول على رد.', 'bot');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      addMessage('حدث خطأ أثناء الاتصال بالخدمة.', 'bot');
-    }
-  }
-
-  // استماع لزر الإرسال
-  sendBtn.onclick = () => {
-    sendMessage();
-  };
-
-  // ضغط Enter لإرسال
-  chatInput.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      sendMessage();
-    }
-  });
-</script>
-
-
+  <!-- ── SCRIPTS ── -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="shared-components.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', initShared);
+  </script>
 </body>
-
 </html>

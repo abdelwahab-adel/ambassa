@@ -52,7 +52,7 @@
     </video>
     <div class="hero__content">
       <p class="hero__eyebrow" data-translate="hero_eyebrow">اكتشف · استمتع · تعلّم</p>
-      <h1 class="hero__title typewrite" data-period="2000" data-translate="header_typewrite"></h1>
+      <h1 class="hero__title typewrite" data-translate="header_typewrite">الطبيعة  والثقافة النوبية والموقع الجغرافي والمعالم السياحية.</h1>
       <p class="hero__desc" data-translate="header_paragraph">
         أسوان مزيجٌ فريد من التاريخ والثقافة والجمال الطبيعي. ستجد فيها كنوزاً أثرية رائعة وقرى نوبية أصيلة، وسكينةً تجعل منها وجهةً استثنائية.
       </p>
@@ -69,7 +69,7 @@
   <section class="intro" id="welcome_Sec">
     <div class="container">
       <span class="section-tag" data-translate="tourist_sites">المواقع السياحية والأثرية</span>
-      <h2 class="section-title" data-translate="intro_heading">عروس الجنوب</h2>
+      <h2 class="section-title" data-translate="introooo">معالم سياحية فريدة ومتنوعة</h2>
       <p class="section-body" data-translate="welcome_paragraph">
         أسوان من أبرز المدن السياحية في مصر وأقدمها وأجملها، تتميز بتاريخها العريق ومناظرها الطبيعية الخلابة على ضفاف النيل، لتكون وجهةً مثاليةً للسياحة والاسترخاء.
       </p>
@@ -148,7 +148,7 @@
 <section class="trips-sec" id="trips">
   <div class="container">
     <span class="section-tag" data-translate="trips">رحلات أسوان السياحية</span>
-    <h2 class="section-title" id="pageHeaderTitle" data-translate="trips_heading">اختر رحلتك</h2>
+    <h2 class="section-title" id="pageHeaderTitle" data-translate="intro_heading">اختر رحلتك</h2>
 
     <!-- trip card - صورة يمين -->
     <article class="trip-card trip-card--img-right" id="archaeological">
@@ -306,7 +306,7 @@
   <section class="map-sec" id="explore-fiji">
     <div class="container">
       <span class="section-tag" data-translate="geo_location_title">الموقع الجغرافي الفريد</span>
-      <h2 class="section-title">أين تقع أسوان؟</h2>
+      <h2 class="section-title" data-translate="geo_locationnn" >أين تقع أسوان؟</h2>
       <p class="section-body" data-translate="geo_location_desc">
         تقع محافظة أسوان في أقصى جنوب مصر، وتُعدّ محافظةً صحراويةً ونيليةً في آنٍ واحد، ويمثّل نهر النيل عنصرها الحياتي الأساسي.
       </p>
@@ -443,14 +443,7 @@
       }
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('.typewrite').forEach(el => {
-        const words = currentLanguage === 'ar'
-          ? ['مرحباً بكم في أسوان', 'جوهرة الجنوب', 'أرض الحضارة والنيل']
-          : ['Welcome to Aswan', 'Jewel of the South', 'Land of Civilization'];
-        new Typewriter(el, words, +el.dataset.period || 2000);
-      });
-    });
+    
 
     /* ── Fade-in on scroll ── */
     const observer = new IntersectionObserver((entries) => {
