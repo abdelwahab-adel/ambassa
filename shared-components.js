@@ -169,8 +169,8 @@ function initShared() {
     try {
       const res  = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' },
-        body: JSON.stringify({ model: 'tngtech/deepseek-r1t2-chimera:free', messages: [{ role: 'user', content: msg }], max_tokens: 1200, temperature: 1.2 }),
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer key_secret' },
+        body: JSON.stringify({ model: 'google/gemma-4-31b-it:free', messages: [{ role: 'user', content: msg }], max_tokens: 1200, temperature: 1.2 }),
       });
       const data = await res.json();
       t.remove();
