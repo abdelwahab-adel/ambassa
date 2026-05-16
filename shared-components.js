@@ -59,7 +59,7 @@ function buildFooter() {
       </div>
       <div class="footer__col">
         <h4 data-translate="contact_info">تواصل معنا</h4>
-        <p data-translate="phone"><i class="fas fa-phone"></i> 01100340198</p>
+        <p data-translate="phone"><i class="fas fa-phone"></i> 00000000000</p>
         <p data-translate="email"><i class="fas fa-envelope"></i> abdelwahabadel777@gmail.com</p>
         <p data-translate="location"><i class="fas fa-map-marker-alt"></i> أسوان، مصر</p>
         <div class="footer__social">
@@ -68,7 +68,7 @@ function buildFooter() {
           <a href="mailto:abdelwahabadel777@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100008450681129" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="http://t.me/Abdelwahab77" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
-          <a href="https://wa.me/+0201100340198" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/+0200000000000" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
