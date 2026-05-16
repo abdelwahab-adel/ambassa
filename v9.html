@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="edfu_temple">أمبيسا | أسوان</title>
+  <meta name="description" content="Ambesa – Aswan Culture" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="page.css" />
+</head>
+<body>
+
+  <!-- Navbar, footer, chatbot injected by shared-components.js -->
+
+  <!-- ── HERO ── -->
+  <header class="page-hero" id="hero">
+    <div class="page-hero__overlay"></div>
+    <video class="page-hero__video" autoplay loop muted playsinline>
+      <source src="images/video/v9.mp4" type="video/mp4" />
+    </video>
+    <div class="page-hero__content">
+      <span class="breadcrumb"><a href="index.html" data-translate="home">الرئيسية</a> <i class="fa fa-angle-left"></i> <span data-translate="edfu_temple">المعلم السياحي</span></span>
+      <h1 data-translate="edfu_temple">المعلم السياحي</h1>
+      <p data-translate="p9">وصف مختصر عن المعلم.</p>
+      <a href="https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%A8%D8%AF_%D8%A5%D8%AF%D9%81%D9%88" class="btn btn--primary" data-translate="read_more" target="_blank" rel="noopener">
+        اقرأ المزيد <i class="fa fa-arrow-left"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ── INFO ── -->
+  <section class="info-sec" id="info">
+    <div class="container">
+      <span class="section-tag" data-translate="edfu_temple">المعلم</span>
+      <h2 class="section-title" data-translate="inf9">معلومات عن المعلم</h2>
+      <div class="info-body fade-in">
+        <p data-translate="dec9">تفاصيل المعلم السياحي.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="gallery-sec" id="gallery">
+    <div class="container">
+      <span class="section-tag" data-translate="pic9">الصور</span>
+      <h2 class="section-title" data-translate="pic9">معرض الصور</h2>
+      <div class="gallery__grid">
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9/" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9/" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic9/" alt="" loading="lazy" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOCATION ── -->
+  <section class="location-sec" id="location">
+    <div class="container">
+      <span class="section-tag" data-translate="geo_location_title">الموقع الجغرافي</span>
+      <h2 class="section-title" data-translate="geo_location_title">الموقع</h2>
+      <p class="section-body fade-in" data-translate="loc9">الموقع الجغرافي للمعلم.</p>
+      <div class="map-wrap fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.8875487057567!2d32.87519732516959!3d24.977731940555962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1449ed130bac4eab%3A0xf260759eaff3d5e5!2z2YXYudio2K8g2KXYr9mB2Yg!5e1!3m2!1sar!2seg!4v1765482856550!5m2!1sar!2seg"
+          title="خريطة"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SCRIPTS ── -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="shared-components.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', initShared);
+  </script>
+</body>
+</html>

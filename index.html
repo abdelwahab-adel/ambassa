@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أمبيسا | Ambesa – أسوان</title>
+  <meta name="description" content="اكتشف سحر أسوان – تاريخ فرعوني، ثقافة نوبية، وطبيعة خلابة" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button id="scrollTop" aria-label="العودة للأعلى">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" data-translate="logo">!Ambesa</a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html"           data-translate="home">الرئيسية</a></li>
+        <li><a href="#slides_parent"       data-translate="heritage_sites">المواقع التراثية</a></li>
+        <li><a href="#pageHeaderTitle"     data-translate="travel_with_us">سافر معنا</a></li>
+        <li><a href="noba.html"            data-translate="our_pride">النوبة</a></li>
+        <li><a href="food.html"            data-translate="food">المأكولات</a></li>
+      </ul>
+
+      <button class="nav__lang" id="langBtn" onclick="toggleLanguage()" aria-label="تبديل اللغة">
+        <img id="flagImage" src="en.png" alt="English" width="22" height="22" />
+        <span id="langText">English</span>
+      </button>
+
+      <button class="nav__burger" id="burgerBtn" aria-label="القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="hero">
+    <div class="hero__overlay"></div>
+    <video class="hero__video" autoplay loop muted playsinline>
+      <source src="images/Vmain.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-translate="hero_eyebrow">اكتشف · استمتع · تعلّم</p>
+      <h1 class="hero__title typewrite" data-period="2000" data-translate="header_typewrite"></h1>
+      <p class="hero__desc" data-translate="header_paragraph">
+        أسوان مزيجٌ فريد من التاريخ والثقافة والجمال الطبيعي. ستجد فيها كنوزاً أثرية رائعة وقرى نوبية أصيلة، وسكينةً تجعل منها وجهةً استثنائية.
+      </p>
+      <a href="https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D9%88%D8%A7%D9%86" class="btn btn--primary" data-translate="read_more" target="_blank" rel="noopener">
+        اقرأ المزيد <i class="fa fa-arrow-left"></i>
+      </a>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ===== INTRO ===== -->
+  <section class="intro" id="welcome_Sec">
+    <div class="container">
+      <span class="section-tag" data-translate="tourist_sites">المواقع السياحية والأثرية</span>
+      <h2 class="section-title" data-translate="intro_heading">عروس الجنوب</h2>
+      <p class="section-body" data-translate="welcome_paragraph">
+        أسوان من أبرز المدن السياحية في مصر وأقدمها وأجملها، تتميز بتاريخها العريق ومناظرها الطبيعية الخلابة على ضفاف النيل، لتكون وجهةً مثاليةً للسياحة والاسترخاء.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== HERITAGE SLIDES ===== -->
+    <section id="slides_parent">
+        <div class="container">
+            <div class="slides">
+                <a href="v1.html"><div class="slide_1">
+                     <div class="slide_info" data-translate="abu_simbel"> 
+                        <p>معبد أبو سمبل</p>
+                    </div>
+                </div></a>
+                <a href="v2.html"><div class="slide_1 slide_2">
+                    <div class="slide_info" data-translate="philae_temple">
+                        <p>معبد فيلة</p>
+                    </div>
+                </div></a> 
+               <a href="v3.html">  <div class="slide_1 slide_3">
+                    <div class="slide_info" data-translate="aswan_museum">
+                        <p>متحف أسوان (متحف جزيرة إلفنتين)</p>
+                    </div>
+                </div></a>
+               <a href="v4.html">  <div class="slide_1 slide_4">
+                    <div class="slide_info" data-translate="west_suhail_village">
+                        <p>قرية غرب سهيل</p>
+                    </div>
+                </div></a>
+                <a href="v5.html"> <div class="slide_1 slide_5">
+                   <div class="slide_info" data-translate="abu_alhawa_dome">
+                        <p>قبة أبو الهوا</p>
+                    </div>
+                </div> </a>
+               <a href="v6.html">  <div class="slide_1 slide_6">
+                    <div class="slide_info" data-translate="unfinished_obelisk">
+                        <p> المسلةالناقصة </p>
+                    </div>
+                </div></a>
+              <a href="v7.html"> <div class="slide_1 slide_7">
+                    <div class="slide_info" data-translate="fatimid_cemetery">
+                        <p>مقبرة الفاطميين في أسوان</p>
+                    </div>
+                </div></a>
+              <a href="v8.html">   <div class="slide_1 slide_8">
+                   <div class="slide_info" data-translate="nubia_museum">
+                        <p>متحف النوبة</p>
+                    </div>
+                </div></a>
+               <a href="v9.html"> <div class="slide_1 slide_9">
+                    <div class="slide_info" data-translate="edfu_temple">
+                        <p>معبد إدفو</p>
+                    </div>
+                </div></a>
+               <a href="v10.html"><div class="slide_1 slide_10">
+                    <div class="slide_info" data-translate="kitchener_island">
+                        <p>جزيرة النباتات</p>
+                    </div>
+                </div></a>
+               <a href="v11.html"> <div class="slide_1 slide_11">
+                    <div class="slide_info" data-translate="nile_museum">
+                        <p>متحف النيل</p>
+                    </div>
+                </div></a>
+                <a href="v12.html"> <div class="slide_1 slide_12">
+                   <div class="slide_info" data-translate="high_dam">
+                        <p>السد العالي</p>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    </section>
+
+  <!-- ===== TRIPS ===== -->
+<section class="trips-sec" id="trips">
+  <div class="container">
+    <span class="section-tag" data-translate="trips">رحلات أسوان السياحية</span>
+    <h2 class="section-title" id="pageHeaderTitle" data-translate="trips_heading">اختر رحلتك</h2>
+
+    <!-- trip card - صورة يمين -->
+    <article class="trip-card trip-card--img-right" id="archaeological">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/pi1.jpg" alt="معبد فيلة" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="archaeological_tours">الرحلات الأثرية</h3>
+        <p class="trip-card__sub" data-translate="archaeological_sub">التعريف بعظمة وتاريخ الحضارة المصرية القديمة.</p>
+        <p data-translate="archaeological_text">
+          تكشف الرحلات الأثرية عن عظمة الحضارة المصرية القديمة، حيث تضم أسوان مجموعة مميزة من المعالم الأثرية تمتد عبر عصور متعددة…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة شمال -->
+    <article class="trip-card trip-card--img-left" id="nile">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/sarah-1-3-717x500-webp.webp" alt="جولة نيلية" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="nile_tours">الرحلات النيلية</h3>
+        <p class="trip-card__sub" data-translate="nile_sub">الاستمتاع بالهدوء والجمال الطبيعي لنهر النيل.</p>
+        <p data-translate="nile_text">
+          يوفر الإبحار على فلوكة تقليدية تجربةً هادئةً ممتعة، وتشمل الجولات زيارة جزيرة فيلة وجزيرة إلفنتين…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة يمين -->
+    <article class="trip-card trip-card--img-right" id="cultural">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/4027816511730271770.jpg" alt="الرحلات الثقافية" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="cultural_tours">الرحلات الثقافية والتراثية</h3>
+        <p class="trip-card__sub" data-translate="cultural_sub">تمتزج الطبيعة الخلابة مع التراث الثقافي الأصيل.</p>
+        <p data-translate="cultural_text">
+          يحرص الزوار على استكشاف القرى النوبية التقليدية مثل غرب سهيل للتعرف على عادات أهل النوبة…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة شمال -->
+    <article class="trip-card trip-card--img-left" id="market">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/ropa-mercado-aswan-768x1024.jpg" alt="السوق السياحي" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="market_tours">السوق السياحي</h3>
+        <p class="trip-card__sub" data-translate="market_sub">يضم العديد من البازارات والمحلات التجارية.</p>
+        <p data-translate="market_text">
+          السوق السياحي في أسوان من أهم محطات الرحلات داخل المدينة، يجمع بين التراث الشعبي والحياة اليومية…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة يمين -->
+    <article class="trip-card trip-card--img-right" id="desert">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/74425-ركوب-الجمال-بالصحراء-الشرقية-.jpg" alt="رحلات الصحراء" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="desert_tours">الرحلات الصحراوية</h3>
+        <p class="trip-card__sub" data-translate="desert_sub">مناظر طبيعية ساحرة من الكثبان الرملية والجبال الصخرية.</p>
+        <p data-translate="desert_text">
+          تبدأ برحلات سفاري مثيرة، وركوب الجمال بين الكثبان، والإقامة في مخيمات صحراوية ليلية…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة شمال -->
+    <article class="trip-card trip-card--img-left" id="medical">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/WhatsApp Image 2025-12-14 at 21.26.14_115a7df4.jpg" alt="الرحلات العلاجية" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="medical_tours">الرحلات العلاجية</h3>
+        <p class="trip-card__sub" data-translate="medical_sub">تعتمد على المناخ الجاف المشمس والخصائص الطبيعية الفريدة.</p>
+        <p data-translate="medical_text">
+          تُعد أسوان وجهةً عالميةً للسياحة العلاجية: العلاج بالرمال الساخنة، الحمامات الكبريتية، والمنتجعات الصحية المتكاملة…
+        </p>
+      </div>
+    </article>
+
+    <!-- trip card - صورة يمين -->
+    <article class="trip-card trip-card--img-right" id="relax">
+      <div class="trip-card__img-wrap">
+        <img src="images/trips/caption.jpg" alt="رحلات الاستجمام" loading="lazy" />
+      </div>
+      <div class="trip-card__body">
+        <h3 data-translate="relax_tours">رحلات الاستجمام والهدوء</h3>
+        <p class="trip-card__sub" data-translate="relax_sub">تجربة مثالية للراحة والاسترخاء وسط الطبيعة.</p>
+        <p data-translate="relax_text">
+          من أبرز أنشطة رحلات الاستجمام التنزه على كورنيش النيل والاستمتاع بالمشي بين الأشجار والنوافير ومشاهدة الجزر الصغيرة. كما تُعد حديقة فريال والمناطق الخضراء المحيطة بها مكانًا مثاليًا للراحة والتأمل، مما يجعل أسوان وجهة مثالية للسكينة والهدوء.
+        </p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+  <!-- ===== FOOD PREVIEW ===== -->
+  <section class="food-sec" id="food-preview">
+    <div class="container">
+      <span class="section-tag" data-translate="food">المأكولات</span>
+      <h2 class="section-title" data-translate="titlef">أشهر أطعمة أسوان</h2>
+      <p class="section-body" data-translate="descf">
+        تشتهر أسوان بأطباق نوبية وصعيدية أصيلة تعتمد على البساطة والمكونات المحلية.
+      </p>
+
+      <div class="food-grid">
+
+        <div class="food-card">
+          <div class="food-card__img-wrap">
+            <img src="images/food/17048-alkaced-1.jpg" alt="السلطة النوبية" loading="lazy" />
+          </div>
+          <div class="food-card__body">
+            <h4 data-translate="alsalat_title">السلطة</h4>
+            <p data-translate="alsalat_desc">واحدة من أشهر الأطباق النوبية…</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-card__img-wrap">
+            <img src="images/food/WhatsApp Image 2025-12-15 at 02.58.21_c83a1e20.jpg" alt="الجاكود" loading="lazy" />
+          </div>
+          <div class="food-card__body">
+            <h4 data-translate="jakoud_title">الجاكود</h4>
+            <p data-translate="jakoud_desc">جزء أساسي من التراث النوبي…</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-card__img-wrap">
+            <img src="images/food/WhatsApp Image 2025-12-15 at 03.08.31_0a12db19.jpg" alt="العبري" loading="lazy" />
+          </div>
+          <div class="food-card__body">
+            <h4 data-translate="abreh_title">العبري</h4>
+            <p data-translate="abreh_desc">مشروب نوبي مميز ومروٍّ…</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center" style="margin-top:2.5rem;">
+        <a href="food.html" class="btn btn--outline" data-translate="see_more">شاهد المزيد</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="map-sec" id="explore-fiji">
+    <div class="container">
+      <span class="section-tag" data-translate="geo_location_title">الموقع الجغرافي الفريد</span>
+      <h2 class="section-title">أين تقع أسوان؟</h2>
+      <p class="section-body" data-translate="geo_location_desc">
+        تقع محافظة أسوان في أقصى جنوب مصر، وتُعدّ محافظةً صحراويةً ونيليةً في آنٍ واحد، ويمثّل نهر النيل عنصرها الحياتي الأساسي.
+      </p>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26368.448058964135!2d32.900106199999996!3d24.092334600000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14367b5ab1a30e5f%3A0xfb109fe337cabccb!2z2KPYs9mI2KfZhtiMINmF2K3Yp9mB2LjYqSDYo9iz2YjYp9mG!5e1!3m2!1sar!2seg!4v1762384011912!5m2!1sar!2seg"
+          title="خريطة أسوان"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__grid container" style="display: flex;justify-content:center;">
+
+      <div class="footer__col">
+        <h3 class="footer__brand" data-translate="logo">!Ambesa</h3>
+        <p data-translate="footer_title_desc">
+          دليلك السياحي الرقمي لمدينة أسوان  نقدّم تجربة معرفية ثريّة عن تاريخها وثقافتها وطبيعتها.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h4 data-translate="quick_links">روابط سريعة</h4>
+        <nav aria-label="روابط الفوتر">
+          <a href="index.html"          data-translate="link_home"><i class="fas fa-chevron-left"></i> الرئيسية</a>
+          <a href="https://aswan.gov.eg/" target="_blank" rel="noopener" data-translate="link_aswan"><i class="fas fa-chevron-left"></i> بوابة أسوان</a>
+          <a href="https://mota.gov.eg/ar" target="_blank" rel="noopener" data-translate="link_tourism"><i class="fas fa-chevron-left"></i> وزارة السياحة</a>
+          <a href="noba.html"           data-translate="link_Nubian"><i class="fas fa-chevron-left"></i> النوبة</a>
+        </nav>
+      </div>
+
+      <div class="footer__col">
+        <h4 data-translate="contact_info">تواصل معنا</h4>
+        <p data-translate="phone"><i class="fas fa-phone"></i> 01100340198</p>
+        <p data-translate="email"><i class="fas fa-envelope"></i> abdelwahabadel777@gmail.com</p>
+        <p data-translate="location"><i class="fas fa-map-marker-alt"></i> أسوان، مصر</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/in/abdelwahab-adel-57265926b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"                                                       target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:abdelwahabadel777@gmail.com"                     aria-label="البريد الإلكتروني"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100008450681129" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="http://t.me/Abdelwahab77"                               target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+          <a href="https://wa.me/+0201100340198"                           target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p data-translate="copyright">© 2025 – تصميم وتطوير: عبد الوهاب عادل</p>
+    </div>
+  </footer>
+
+  <!-- ===== CHATBOT ===== -->
+  <button class="chat-fab" id="chatFab" aria-label="فتح المساعد">
+    <img src="images/pngtree-pharaoh-head-of-egypt-icon-vector-png-image_7225421.png" alt="أمبيسا" />
+  </button>
+
+  <div class="chat-window" id="chatWindow" role="dialog" aria-label="نافذة الدردشة" hidden>
+    <div class="chat-window__header">
+      <span data-translate="chat">مرحباً، أنا <strong>أمبيسا</strong> – مساعدك الرقمي لمدينة أسوان.</span>
+      <button class="chat-window__close" id="chatClose" aria-label="إغلاق">&times;</button>
+    </div>
+    <div class="chat-window__messages" id="chatMessages"></div>
+    <div class="chat-window__input">
+      <input type="text" id="chatInput" data-translate="Write_chat" placeholder="اكتب استفسارك هنا…" autocomplete="off" />
+      <button id="chatSend" data-translate="send">إرسال</button>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    /* ── Navbar scroll effect ── */
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('navbar--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ── Mobile burger ── */
+    const burgerBtn  = document.getElementById('burgerBtn');
+    const navLinks   = document.getElementById('navLinks');
+    burgerBtn.addEventListener('click', () => {
+      const open = burgerBtn.getAttribute('aria-expanded') === 'true';
+      burgerBtn.setAttribute('aria-expanded', String(!open));
+      navLinks.classList.toggle('nav__links--open');
+      burgerBtn.classList.toggle('nav__burger--open');
+    });
+
+    /* ── Scroll-to-top ── */
+    const scrollTopBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('scrollTop--visible', window.scrollY > 300);
+    }, { passive: true });
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    /* ── Typewrite ── */
+    class Typewriter {
+      constructor(el, words, period = 2000) {
+        this.el      = el;
+        this.words   = words;
+        this.period  = period;
+        this.txt     = '';
+        this.wordIdx = 0;
+        this.isDeleting = false;
+        this.tick();
+      }
+      tick() {
+        const full   = this.words[this.wordIdx % this.words.length];
+        this.txt     = this.isDeleting
+          ? full.substring(0, this.txt.length - 1)
+          : full.substring(0, this.txt.length + 1);
+        this.el.innerHTML = `<span class="wrap">${this.txt}</span>`;
+        let delta = 120 - Math.random() * 60;
+        if (this.isDeleting) delta /= 2;
+        if (!this.isDeleting && this.txt === full) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.wordIdx++;
+          delta = 500;
+        }
+        setTimeout(() => this.tick(), delta);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.typewrite').forEach(el => {
+        const words = currentLanguage === 'ar'
+          ? ['مرحباً بكم في أسوان', 'جوهرة الجنوب', 'أرض الحضارة والنيل']
+          : ['Welcome to Aswan', 'Jewel of the South', 'Land of Civilization'];
+        new Typewriter(el, words, +el.dataset.period || 2000);
+      });
+    });
+
+    /* ── Fade-in on scroll ── */
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.slide-card, .trip-card, .food-card, .intro, .map-sec').forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+
+    /* ── Chatbot ── */
+    const chatFab     = document.getElementById('chatFab');
+    const chatWindow  = document.getElementById('chatWindow');
+    const chatClose   = document.getElementById('chatClose');
+    const chatSend    = document.getElementById('chatSend');
+    const chatInput   = document.getElementById('chatInput');
+    const chatMessages = document.getElementById('chatMessages');
+
+    chatFab.addEventListener('click', () => {
+      chatWindow.hidden = !chatWindow.hidden;
+      if (!chatWindow.hidden) chatInput.focus();
+    });
+    chatClose.addEventListener('click', () => { chatWindow.hidden = true; });
+
+    function addMessage(text, role = 'user') {
+      const msg = document.createElement('div');
+      msg.className = `chat-msg chat-msg--${role}`;
+      msg.innerHTML = text;
+      chatMessages.appendChild(msg);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const message = chatInput.value.trim();
+      if (!message) return;
+      addMessage(message, 'user');
+      chatInput.value = '';
+
+      // typing indicator
+      const typingEl = document.createElement('div');
+      typingEl.className = 'chat-msg chat-msg--bot chat-typing';
+      typingEl.innerHTML = '<span></span><span></span><span></span>';
+      chatMessages.appendChild(typingEl);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+
+      try {
+        const res  = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ',
+          },
+          body: JSON.stringify({
+            model: 'tngtech/deepseek-r1t2-chimera:free',
+            messages: [{ role: 'user', content: message }],
+            max_tokens: 1200,
+            temperature: 1.2,
+          }),
+        });
+        const data = await res.json();
+        typingEl.remove();
+        const reply = data?.choices?.[0]?.message?.content ?? 'عذراً، لم أتمكن من الحصول على رد.';
+        addMessage(reply, 'bot');
+      } catch {
+        typingEl.remove();
+        addMessage('حدث خطأ أثناء الاتصال بالخدمة.', 'bot');
+      }
+    }
+
+    chatSend.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); sendMessage(); } });
+  </script>
+</body>
+</html>

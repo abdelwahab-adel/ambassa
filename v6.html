@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="unfinished_obelisk">أمبيسا | أسوان</title>
+  <meta name="description" content="Ambesa – Aswan Culture" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="page.css" />
+</head>
+<body>
+
+  <!-- Navbar, footer, chatbot injected by shared-components.js -->
+
+  <!-- ── HERO ── -->
+  <header class="page-hero" id="hero">
+    <div class="page-hero__overlay"></div>
+    <video class="page-hero__video" autoplay loop muted playsinline>
+      <source src="images/video/v6.mp4" type="video/mp4" />
+    </video>
+    <div class="page-hero__content">
+      <span class="breadcrumb"><a href="index.html" data-translate="home">الرئيسية</a> <i class="fa fa-angle-left"></i> <span data-translate="unfinished_obelisk">المعلم السياحي</span></span>
+      <h1 data-translate="unfinished_obelisk">المعلم السياحي</h1>
+      <p data-translate="p6">وصف مختصر عن المعلم.</p>
+      <a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%A9_%D8%A7%D9%84%D9%86%D8%A7%D9%82%D8%B5%D8%A9" class="btn btn--primary" data-translate="read_more" target="_blank" rel="noopener">
+        اقرأ المزيد <i class="fa fa-arrow-left"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ── INFO ── -->
+  <section class="info-sec" id="info">
+    <div class="container">
+      <span class="section-tag" data-translate="unfinished_obelisk">المعلم</span>
+      <h2 class="section-title" data-translate="inf6">معلومات عن المعلم</h2>
+      <div class="info-body fade-in">
+        <p data-translate="dec6">تفاصيل المعلم السياحي.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="gallery-sec" id="gallery">
+    <div class="container">
+      <span class="section-tag" data-translate="pic6">الصور</span>
+      <h2 class="section-title" data-translate="pic6">معرض الصور</h2>
+      <div class="gallery__grid">
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6/" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6/" alt="" loading="lazy" /></div>
+          <div class="gallery__item fade-in"><img src="images/pic6/" alt="" loading="lazy" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOCATION ── -->
+  <section class="location-sec" id="location">
+    <div class="container">
+      <span class="section-tag" data-translate="geo_location_title">الموقع الجغرافي</span>
+      <h2 class="section-title" data-translate="geo_location_title">الموقع</h2>
+      <p class="section-body fade-in" data-translate="loc6">الموقع الجغرافي للمعلم.</p>
+      <div class="map-wrap fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.452869132458!2d32.89801192519799!3d24.076902176164435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x143664aa5c33aa3f%3A0xa1bf171a1b3086c6!2z2KfZhNmF2LPZhNipINin2YTZhtin2YLYtdip!5e1!3m2!1sar!2seg!4v1765405025436!5m2!1sar!2seg"
+          title="خريطة"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SCRIPTS ── -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="shared-components.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', initShared);
+  </script>
+</body>
+</html>
